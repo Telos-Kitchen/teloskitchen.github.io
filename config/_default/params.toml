@@ -1,0 +1,47 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Hancock"
+titleSeparator = "-"
+titleAddition = "Sovereign Organizations"
+description = "Hancock enables organizations and teams to operate with autonomy, freedom, and transparency"
+
+## Open Graph + Twitter Cards
+images = ["hancock-logo.png"]
+# twitterSite = "henkverlinde"
+# twitterCreator = "henkverlinde"
+# facebookAuthor = "verlinde.henk"
+# facebookPublisher = "verlinde.henk"
+ogLocale = "en_US"
+
+## JSON-LD
+schemaType = "Organization"
+schemaLogo = "hancock-logo.png"
+# schemaTwitter = "https://twitter.com/henkverlinde"
+# schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
+schemaGitHub = "https://github.com/hcse"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+
+# Footer
+# footer = "(c) Hancock 2020"
+
+# Alert
+alert = false
+alertText = "Like Hancock? <a class=\"alert-link\" href=\"https://github.com/hcse/stargazers\">Star on GitHub</a>. Thanks!</a>"
+
+# Edit Page
+docsRepo = "https://github.com/hcse/hancock-is"
+editPage = false
