@@ -3,24 +3,9 @@ name: build
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      - master  
 
 jobs:
-  # push_to_registry:
-  #   name: Push Docker image to Tekit Registry
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Check out the repo
-  #       uses: actions/checkout@v2
-  #     - name: Push to Tekit Registry
-  #       uses: docker/build-push-action@v1
-  #       with:
-  #         username: ${{ secrets.TEKIT_REGISTRY_USERNAME }}
-  #         password: ${{ secrets.TEKIT_REGISTRY_PASSWORD }}
-  #         registry: registry.tekit.io
-  #         repository: dappdever/hancock-is
-  #         tag_with_ref: true
-
   deploy:
     runs-on: ubuntu-18.04
     steps:
@@ -44,7 +29,7 @@ jobs:
       - name: Publish to Registry
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          name: registry.tekit.io/hancock-is
+          name: registry.tekit.io/hancock-web
           username: ${{ secrets.TEKIT_REGISTRY_USERNAME }}
           password: ${{ secrets.TEKIT_REGISTRY_PASSWORD }}
           registry: registry.tekit.io
