@@ -1,15 +1,8 @@
 [[docs]]
-  name = "Prologue"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
-
-
-[[docs]]
-  name = "Features"
+  name = "Platform"
   weight = 60
-  identifier = "features"
-  url = "/docs/features/"
+  identifier = "platform"
+  url = "/docs/platform/"
 
 [[docs]]
   name = "Document Graph"
@@ -24,14 +17,14 @@
   url = "/docs/daoctl"
 
 [[docs]]
-  name = "Help"
-  weight = 90
-  identifier = "help"
-  url = "/docs/help/"
+  name = "About"
+  weight = 100
+  identifier = "about"
+  url = "/docs/about/"
 
 [[main]]
   name = "Docs"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/platform/introduction/"
   weight = 10
 
 [[main]]

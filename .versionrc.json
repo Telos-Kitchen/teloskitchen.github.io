@@ -1,6 +1,6 @@
 {
   "types": [
-    {"type": "feat", "section": "Features"},
+    {"type": "feat", "section": "platform"},
     {"type": "fix", "section": "Bug Fixes"},
     {"type": "chore", "hidden": true},
     {"type": "deps", "section": "Dependencies"},
