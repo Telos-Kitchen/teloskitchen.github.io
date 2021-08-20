@@ -1,13 +1,13 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Hancock"
+title = "Telos Kitchen"
 titleSeparator = "-"
-titleAddition = "Sovereign Organizations"
-description = "Hancock enables organizations and teams to operate with autonomy, freedom, and transparency"
+titleAddition = "Block producer candidate and development team"
+description = "Block producer candidate and development team"
 
 ## Open Graph + Twitter Cards
-images = ["hancock-logo.png"]
+images = ["teloskitchen-logo.png"]
 # twitterSite = "henkverlinde"
 # twitterCreator = "henkverlinde"
 # facebookAuthor = "verlinde.henk"
@@ -16,10 +16,10 @@ ogLocale = "en_US"
 
 ## JSON-LD
 schemaType = "Organization"
-schemaLogo = "hancock-logo.png"
+schemaLogo = "teloskitchen-logo.png"
 # schemaTwitter = "https://twitter.com/henkverlinde"
 # schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaGitHub = "https://github.com/hcse"
+schemaGitHub = "https://github.com/teloskitchen"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -36,12 +36,8 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-# footer = "(c) Hancock 2020"
-
-# Alert
-alert = false
-alertText = "Like Hancock? <a class=\"alert-link\" href=\"https://github.com/hcse/stargazers\">Star on GitHub</a>. Thanks!</a>"
+# footer = "(c) Telos Kitchen DAO LLC"
 
 # Edit Page
-docsRepo = "https://github.com/hcse/hancock-is"
+docsRepo = "https://github.com/teloskitchen/telos.kitchen"
 editPage = false
